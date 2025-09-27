@@ -1,0 +1,8 @@
+version: '4.46.0'
+
+services:
+  catalogdb:
+    image: postgres
+
+volumes:
+  postgres_catalog:
