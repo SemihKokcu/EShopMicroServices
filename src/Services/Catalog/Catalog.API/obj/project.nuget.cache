@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "knNT/tHFfLU=",
+  "dgSpecHash": "A8XSRufAeEI=",
   "success": true,
   "projectFilePath": "C:\\Users\\octopus-semih\\source\\repos\\EShopMicroServices\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\octopus-semih\\.nuget\\packages\\carter\\8.0.0\\carter.8.0.0.nupkg.sha512",
     "C:\\Users\\octopus-semih\\.nuget\\packages\\fastexpressioncompiler\\5.1.1\\fastexpressioncompiler.5.1.1.nupkg.sha512",
-    "C:\\Users\\octopus-semih\\.nuget\\packages\\fluentvalidation\\11.8.0\\fluentvalidation.11.8.0.nupkg.sha512",
+    "C:\\Users\\octopus-semih\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
+    "C:\\Users\\octopus-semih\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\octopus-semih\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.0\\fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",
     "C:\\Users\\octopus-semih\\.nuget\\packages\\fsharp.core\\9.0.100\\fsharp.core.9.0.100.nupkg.sha512",
     "C:\\Users\\octopus-semih\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\octopus-semih\\.nuget\\packages\\imtools\\4.0.0\\imtools.4.0.0.nupkg.sha512",
