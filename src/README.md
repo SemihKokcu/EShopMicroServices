@@ -1,10 +1,19 @@
 # E-Shop Microservices
 
-Bu proje, .NET üzerinde geliştirilmiş, mikroservis mimarisine dayalı bir e-ticaret platformu uygulamasıdır. Proje, modern yazılım geliştirme prensipleri ve teknolojileri kullanılarak tasarlanmıştır.
+---
+**Not:** Bu proje, [aspnetrun/microservices](https://github.com/aspnetrun/microservices) GitHub reposundan ilham alınarak ve eğitim amaçlı olarak geliştirilmektedir.
+---
 
-## Proje Hakkında
+Bu proje, .NET üzerinde geliştirilmiş, mikroservis mimarisine dayalı bir e-ticaret platformu uygulamasıdır. 
 
-Bu platform, temel e-ticaret işlevlerini (ürün katalogu, sepet yönetimi, sipariş ve indirimler) ayrı servislere bölerek yönetir. Her servis, kendi sorumluluk alanına odaklanmış olup, bağımsız olarak geliştirilebilir, dağıtılabilir ve ölçeklendirilebilir.
+## Mimari ve Tasarım Prensipleri
+
+Bu proje, sadece çalışan bir sistem oluşturmayı değil, aynı zamanda kaliteli ve sürdürülebilir kod yazma pratiğini de hedefler. Bu doğrultuda aşağıdaki mimari yaklaşımlar ve tasarım prensipleri benimsenmiştir:
+
+-   **Katmanlı ve Altıgen Mimari (N-Layer Hexagonal):** Proje; Core, Application, Infrastructure ve Presentation katmanlarından oluşan, DDD (Domain-Driven Design) pratikleriyle zenginleştirilmiş bir mimari üzerine kuruludur.
+-   **Domain-Driven Design (DDD):** Varlıklar (Entities), Repository'ler, Domain ve Application servisleri, DTO'lar gibi DDD'nin temel yapı taşları kullanılmıştır.
+-   **Temiz Mimari (Clean Architecture):** SOLID prensiplerine bağlı kalarak, bağımlılıkları tersine çeviren (Dependency Inversion), gevşek bağlı (Loosely-Coupled) ve test edilebilir bir yapı hedeflenmiştir.
+-   **Tasarım Desenleri ve En İyi Pratikler:** Dependency Injection, Logging, Validation ve merkezi Exception Handling gibi modern yazılım geliştirme desenleri ve pratikleri uygulanmıştır.
 
 ## Mikroservisler
 
@@ -27,7 +36,7 @@ Proje aşağıdaki ana servislerden oluşmaktadır:
 
 ## Gelecek Özellikler
 
-- **Asenkron İletişim:** Servisler arası asenkron haberleşme için **RabbitMQ** entegrasyonu planlanmaktadır.
+- **Asenkron İletişim:** Servisler arası asenkron haberleşme için **RabbitMQ** ve **MassTransit** entegrasyonu planlanmaktadır.
 
 ## Proje Nasıl Çalıştırılır?
 
