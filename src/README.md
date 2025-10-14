@@ -25,6 +25,10 @@ Proje aşağıdaki ana servislerden oluşmaktadır:
 - **İletişim:** Senkron (REST, gRPC)
 - **Shared/Building Blocks:** MediatR, FluentValidation, Mapster gibi kütüphanelerle ortak altyapı.
 
+## Gelecek Özellikler
+
+- **Asenkron İletişim:** Servisler arası asenkron haberleşme için **RabbitMQ** entegrasyonu planlanmaktadır.
+
 ## Proje Nasıl Çalıştırılır?
 
 Projeyi çalıştırmak için sisteminizde **Docker Desktop**'ın kurulu olması gerekmektedir.
@@ -38,4 +42,4 @@ Projeyi çalıştırmak için sisteminizde **Docker Desktop**'ın kurulu olması
 
 3.  Bu komut, tüm servisler için gerekli olan imajları oluşturacak, konteynerleri ayağa kaldıracak ve veritabanlarını (PostgreSQL, Redis) başlatacaktır.
 
-Servisler ayağa kalktıktan sonra `launchSettings.json` dosyasında belirtilen portlar üzerinden erişilebilir olacaktır.
+Servisler ayağa kalktıktan sonra, her bir servisin `Dockerfile` içinde veya `docker-compose.override.yml` dosyasında belirtilen portlar üzerinden erişilebilir olacaktır.
