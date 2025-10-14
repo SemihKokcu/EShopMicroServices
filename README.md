@@ -1,7 +1,7 @@
 # E-Shop Microservices
 
 ---
-**Not:** Bu proje, [aspnetrun/microservices](https://github.com/aspnetrun/microservices) GitHub reposundan ilham alınarak ve eğitim amaçlı olarak geliştirilmektedir.
+**Not:** Bu proje, [Mehmet Özkaya](https://github.com/aspnetrun/microservices](https://github.com/mehmetozkaya/EShopMicroservices) GitHub reposundan ilham alınarak ve eğitim amaçlı olarak geliştirilmektedir.
 ---
 
 Bu proje, .NET üzerinde geliştirilmiş, mikroservis mimarisine dayalı bir e-ticaret platformu uygulamasıdır. 
